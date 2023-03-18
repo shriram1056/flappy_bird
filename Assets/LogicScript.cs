@@ -37,5 +37,9 @@ public class LogicScript : MonoBehaviour
         audioSource[0].Play();
 
     }
+
+    public void PlayGame(){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
     
 }
